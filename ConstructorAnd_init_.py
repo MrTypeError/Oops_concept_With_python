@@ -1,6 +1,6 @@
 class Item:
     pay_rate=0.8 #This is the pay rate for the discout of 20%
-    def __init__(self, name: str, price: float, quantity= 2): 
+    def __init__(self, name1: str, price: float, quantity= 2): 
         #here we have specified the datatype for the valuses to be passed .
         # if you assign float thn it can take float as well as intiger as a argument.
         #Run validations to the recived arguments         
@@ -9,7 +9,7 @@ class Item:
 
         #assign self objects
        
-        self.name=name
+        self.name=name1
         self.price=price
         self.quantity=quantity
         # print("Hello it's me a Constroctor ")
