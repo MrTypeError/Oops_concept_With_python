@@ -1,3 +1,8 @@
+################################################################
+                # Magic Methods OR Dunder Methods 
+################################################################
+            
+
 class Item:
     pay_rate=0.8 #This is the pay rate for the discout of 20%
     All =[]
@@ -31,4 +36,4 @@ item5 = Item("Keyboard", 75, 5)
 print(Item.All) #This will show all the 5 instances 
 
 for instance in Item.All: #this will give the names as output
-    print(instance.name)
+    print(instance.name) 
