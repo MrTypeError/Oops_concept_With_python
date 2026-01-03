@@ -11,7 +11,7 @@ class Child(Parent):
     def __init__(self): #Child Constructor
         print("Child init")
 
-
+# First call
 obj1 = Child()
 
 '''
